@@ -90,7 +90,7 @@ public class VehicleRecordList {
     //vInfo.processVehicle(record);
     //vInfo = vehicleList[++recordNum];
     if (!vehicleList.change(vInfo, recordNum)){
-     JOptionPane.showMessageDialog(null, "not added");
+     JOptionPane.showMessageDialog(null, "not changed");
     }
     else{
      JOptionPane.showMessageDialog(null, "success");
