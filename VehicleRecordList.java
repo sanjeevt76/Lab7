@@ -66,7 +66,7 @@ public class VehicleRecordList {
     VehicleRecordList vehicleList = new VehicleRecordList();
     
     while(true){
-      Character command = JOptionPane.showInputDialog(null,
+      char command = JOptionPane.showInputDialog(null,
                                                  "i - insert a vehicle\n" + 
                                                  "c - change a vehicle info\n" + 
                                                  "d - delete a vehicle\n" + 
