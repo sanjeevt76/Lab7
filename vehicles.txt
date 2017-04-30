@@ -1,0 +1,4 @@
+Toyota,Sienna,2016,v
+Honda,CRV,2014,s
+Nissan,Altima,2012,p
+Ford,F150,2017,t
