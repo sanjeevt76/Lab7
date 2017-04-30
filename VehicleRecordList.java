@@ -91,7 +91,6 @@ public class VehicleRecordList {
 							"c - change a vehicle info\n" + 
 							"d - delete a vehicle\n" + 
 							"p - print the list of vehicles\n" +
-							"s - sort by vehcile name\n"+
 							"f - find a vehicle\n",
 					"Enter your choice").charAt(0);
 
@@ -179,10 +178,6 @@ public class VehicleRecordList {
 			default:
 				continue;
 
-			case 's':{
-				vehicleList.bubbleSort();
-				break;
-			}
 			case 'f':{
 				String record = JOptionPane.showInputDialog(null, 
 						"Enter vehicle to find",
