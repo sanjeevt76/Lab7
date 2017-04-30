@@ -59,25 +59,7 @@ public class VehicleRecordList {
 	private int getSize(){
 		return this.size;
 	}
-	/*
-	 * Bubble sort method for names in alpha order
-	 */
-	public void bubbleSort(){
-		for (int pass = 1; pass < size; pass++){
-			for (int element = 0; element < size -1; element++){
-				if (list[element].getMake()
-						.compareToIgnoreCase(list[element+1]
-								.getMake())>0){
-
-					VehicleRecord hold = list[element];
-					list[element] = list[element+1];
-					list[element+1] = hold;
-
-				} // end if
-			}// end for element
-		}// end for pass
-	}  // end bubblesort
-
+	
 	/*
 	 * Binary Search - search for a name
 	 */
